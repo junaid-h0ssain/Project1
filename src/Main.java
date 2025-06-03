@@ -1,16 +1,12 @@
-import java.util.Date;
-
-
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello and welcome!");
-        System.out.println("\nnice dick");
-        Date now = new Date();
-        System.out.println(now);
-        int a = 10;
-        for (int i = 0; i<20;i++){
-            a+=i;
-            System.out.println(a);
+        int x = 121;
+        String num = String.valueOf(x);
+        String output = "";
+        for(int i=num.length()-1;i>=0;i--){
+            output+=num.charAt(i);
         }
+        if(output.equals(num))
+            System.out.println(output);
     }
 }
