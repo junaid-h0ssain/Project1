@@ -7,5 +7,10 @@ public class Main {
         System.out.println("\nnice dick");
         Date now = new Date();
         System.out.println(now);
+        int a = 10;
+        for (int i = 0; i<20;i++){
+            a+=i;
+            System.out.println(a);
+        }
     }
 }
